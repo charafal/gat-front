@@ -1,9 +1,10 @@
 import { Routes, Route } from "react-router";
 import './test.js'
+import Dashboard from "../../screens/dashboard/index.jsx";
 function Content() {
   return (
     <Routes>
-        <Route path="/test" element={<h2>Test</h2>}></Route>
+        <Route path="/dash" Component={Dashboard}></Route>
     </Routes>
   );
 }
