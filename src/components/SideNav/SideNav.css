@@ -1,0 +1,28 @@
+.sidenav {
+    width: 250px;
+    height: 100%;
+    background-color: white;
+}
+
+.sidenav-list {
+    width: 100%;
+    height: auto;
+    list-style-type: none;
+    /* background-color: cadetblue; */
+    padding: 0;
+}
+
+.sidenav-row {
+    width: 100%;
+    padding: 14px;
+    /* background-color: aquamarine; */
+}
+
+.sidenav-row .row{
+    border-radius: 4px;
+}
+
+.sidenav-row:hover  {
+    /* background-color: #454545; */
+    cursor: pointer;
+}
